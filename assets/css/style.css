@@ -1,0 +1,131 @@
+@font-face{
+    font-family: 'Athene';
+    src: url('../fonts/Athene.otf');
+}
+
+html, body, header, main, section, h4, h3{
+    padding: 0;
+    margin: 0;
+    font-family: 'Athene';
+}
+
+header, footer{
+    
+    height: 300px;
+    background: url("../img/header4.jpg") left/cover no-repeat ;
+    border: 1px solid lightblue;
+    /* display: inline-block; */
+    text-align: right;
+    /* position: relative; */
+}
+
+header h3{
+    padding-top: 200px;
+    padding-right: 50px;
+    color: rgb(199, 169, 130);
+    font-size: 1.5em;
+}
+
+header h3:last-child{
+    padding-top: 10px;
+}
+
+
+.last{
+    padding-top: 74px;
+    padding-left: 375px;
+}
+
+main section:first-child{
+    background: url("../img/bg.jpg") center/cover no-repeat;
+    padding-bottom: 100px;
+}
+
+#first, #second{
+margin: 20px;
+/* width: 50%; */
+display: inline;
+text-align: center;
+
+
+}
+
+.overline{
+    width: 100vw;
+    height: 60px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+h4{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.4em;
+
+}
+
+.pics{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px auto;
+}    
+
+/* WOHER KOMMT ES? */
+article.pics{
+    margin-right: -25px;
+}
+
+.pic{
+    padding: 0;
+    margin: 0 auto;
+    display: inline;
+    width: 70%;
+}
+
+.pic img{
+    width: 45%;
+}
+
+.overline{
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+
+}
+
+h4.underline{
+    text-decoration: underline;
+}
+
+
+/* footer h3{
+    padding: 10px 15px;
+} */
+footer h3{
+    padding-left: 120px;
+    padding-top: 100px;
+}
+
+h3 a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: blanchedalmond;
+    border: wheat 1px solid;
+    font-size: 1.4em;
+}
+
+h3 a:hover{
+    border: rgb(112, 89, 131) 1px solid;
+    color: white;
+    text-shadow: 2px 2px 5px red;
+}
+
+
+
+footer{
+    background: url("../img/monsters3.jpg") left/cover no-repeat;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+

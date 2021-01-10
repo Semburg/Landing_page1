@@ -9,6 +9,10 @@ html, body, header, main, section, h4, h3{
     font-family: 'Athene';
 }
 
+/* 
+----------   HEADER
+*/
+
 header, footer{
     
     height: 300px;
@@ -31,10 +35,9 @@ header h3:last-child{
 }
 
 
-.last{
-    padding-top: 74px;
-    padding-left: 375px;
-}
+/* 
+---------  Main
+*/
 
 main section:first-child{
     background: url("../img/bg.jpg") center/cover no-repeat;
@@ -70,6 +73,8 @@ h4{
 }    
 
 /* WOHER KOMMT ES? */
+
+
 article.pics{
     margin-right: -25px;
 }
@@ -118,7 +123,10 @@ h3 a:hover{
     text-shadow: 2px 2px 5px red;
 }
 
-
+.last{
+    padding-top: 74px;
+    padding-left: 375px;
+}
 
 footer{
     background: url("../img/monsters3.jpg") left/cover no-repeat;
